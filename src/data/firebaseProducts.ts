@@ -1,0 +1,9 @@
+// Optional starter catalogue for Firebase. The storefront also works with the local catalogue.
+export const sampleProducts = [
+  { name: "Classic Blue Denim Shirt", price: 49, originalPrice: 59, description: "Comfortable cotton denim shirt with a classic fit.", category: "Shirts", imageURL: "/products/shirt-blue.svg", rating: 4.5, reviews: 127, isNew: true, isSale: true, colors: ["Blue", "Light Blue", "Dark Blue"], sizes: ["S", "M", "L", "XL"] },
+  { name: "Formal White Dress Shirt", price: 60, originalPrice: 75, description: "Crisp white dress shirt for business and formal occasions.", category: "Shirts", imageURL: "/products/shirt-white.svg", rating: 4.8, reviews: 256, isSale: true, colors: ["White", "Light Gray"], sizes: ["S", "M", "L", "XL"] },
+  { name: "Slim Fit Chino Trousers", price: 80, description: "Modern slim-fit chinos made from a premium cotton blend.", category: "Trousers", imageURL: "/products/trousers-khaki.svg", rating: 4.3, reviews: 189, colors: ["Khaki", "Navy", "Black"], sizes: ["30", "32", "34", "36", "38"] },
+  { name: "Classic Denim Jeans", price: 90, description: "Timeless straight-leg jeans crafted from premium denim.", category: "Trousers", imageURL: "/products/jeans-denim.svg", rating: 4.6, reviews: 342, isNew: true, colors: ["Dark Blue", "Medium Blue", "Black"], sizes: ["30", "32", "34", "36", "38"] },
+  { name: "Wool Blazer Jacket", price: 200, originalPrice: 250, description: "Elegant wool blazer for business and formal occasions.", category: "Jackets", imageURL: "/products/blazer-navy.svg", rating: 4.4, reviews: 156, isSale: true, colors: ["Navy", "Charcoal", "Black"], sizes: ["S", "M", "L", "XL"] },
+  { name: "Casual Bomber Jacket", price: 130, description: "A modern bomber jacket designed for everyday wear.", category: "Jackets", imageURL: "/products/jacket-bomber.svg", rating: 4.7, reviews: 234, colors: ["Black", "Olive", "Navy"], sizes: ["S", "M", "L", "XL"] }
+];
